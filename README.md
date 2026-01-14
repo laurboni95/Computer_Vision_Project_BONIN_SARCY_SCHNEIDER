@@ -46,3 +46,11 @@ weight = torch.load("model_name.pth")
 my_loaded_model.load_state_dict(weight)
 my_loaded_model.eval()
 ```
+
+**Generate analyse images**
+
+>uv run plot_curves.py
+
+Resulting images will be created inside example_pngs
+
+If you don't want to regenerate them, they are already on the repo
