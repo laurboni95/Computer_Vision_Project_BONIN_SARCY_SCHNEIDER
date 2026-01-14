@@ -6,7 +6,15 @@ Then this command will create your virtual environment with all the dependencies
 
 >uv sync
 
-**Run program**
+**Generating datasets**
+
+This is done in an other repository : https://github.com/Gabiru1089/ComputerVisionProject
+
+You can run the notebook from the second repository on Google Collab in order to obtain the two ".pkl" files
+
+If you don't want to re-generate them, they are already in this repository
+
+**Train model**
 
 With VSCode, configure Python Runner as `.venv/bin/python3.12` (bottom right)
 
@@ -20,6 +28,10 @@ python ./main.py
 ```
 uv run main.py
 ```
+
+The four model that are trained are stored into ".pth" files
+
+If you don't want to re-train them, they are already in this repository
 
 **Load model**
 
